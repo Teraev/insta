@@ -1,0 +1,603 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1500px;
+}
+
+
+.com {
+    margin-top: 4px;
+    font-weight: 500;
+   
+}
+
+.head {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    background-color: white;
+    height: 70px;
+}
+
+.head_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
+
+.hed_saray {
+
+    height: 25px;
+}
+
+.lik {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 130px;
+    height: 50px;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.chat {
+    width: 29px;
+    cursor: pointer;
+}
+
+
+.inputCont {
+    position: relative;
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.Search {
+    width: 250px;
+    height: 45px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    padding-left: 35px;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.side_bar {
+    
+    margin-left: 1400px;
+    
+
+}
+
+.users {
+    align-items: center;
+    width: 99%;
+    height: 130px;
+    margin-left: 12px;
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+.pho {
+    width: 1000px;
+    height: 600px;
+}
+
+.circle_main {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: rgba(242, 242, 242, 1);
+    font-size: large;
+
+    .plus {
+        margin-top: 40px;
+        margin-left: 43px;
+    }
+
+}
+
+.c {
+    margin-top: 27px;
+    display: flex;
+    gap: 70px;
+}
+.circle {
+    margin-top: 26px;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.Nick {
+    width: 100px;
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+
+.post_header {
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background: rgba(242, 242, 242, 1);
+    font-size: large;
+}
+
+.toch {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:820px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.names {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.nam {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.city {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.photo {
+    margin-top: 10px;
+    margin-left: 24px;
+    padding-top: 20px;
+}
+
+.calculate {
+    text-align: center;
+    background: rgba(44, 44, 44, 0.8);
+    width: 40px;
+    height: 30px;
+    border-radius: 36px;
+    margin-left: auto;
+    margin-right: 23px;
+}
+
+.num {
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.slider {
+    display: flex;
+    gap: 5px;
+    padding-left: 380px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.small_circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(242, 242, 242, 1);
+}
+
+.small_circle_one {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(55, 2, 247);
+}
+
+.react {
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top:5px;
+    cursor: pointer;
+}
+
+.react_end {
+    width: 40px;
+    margin-left: auto;
+    margin-right: 830px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.reacts {
+    display: flex;
+}
+
+.information {
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+.likes {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.texts {
+    display: flex;
+    gap: 6px;
+}
+
+.nams {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.inf {
+    font-weight: 500;
+}
+
+.more {
+    color: #c4c4c4;
+    cursor: pointer;
+}
+
+
+
+.comm {
+    margin-top: 5px;
+    font-weight: 700;
+    color: #c4c4c4;
+    cursor: pointer;
+}
+
+.tim {
+    display: flex;
+    gap: 10px;
+}
+
+.tams {
+    margin-top: 4px;
+    color: #c4c4c4;
+}
+
+.trans {
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+    padding-left: 20px;
+    gap: 320px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+
+.men_house {
+    width: 50px;
+    height: 45px;
+
+}
+
+.men_search {
+    width: 50px;
+    height: 45px;
+
+}
+
+.men_plus {
+    width: 50px;
+    height: 50px;
+
+}
+
+.men_like {
+    width: 50px;
+    height: 50px;
+
+}
+
+.normal_circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
+
+.nicks {
+    font-weight: 600;
+}
+
+.com_one {
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.com_two {
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.comment {
+    width: 55%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #c4c4c4;
+
+    button {
+        all: unset;
+         margin-left: auto;
+         margin-right: 20px;
+         color: rgb(0, 174, 255);
+         font-weight: 700;
+         cursor: pointer;
+    }
+
+    p{
+        color: #c4c4c4;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+
+    img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .container {
+        height: auto;
+    }
+
+    .head {
+        gap: 75%;
+        border: none;
+    }
+
+    .logo {
+        width: 100px;
+        height: 40px;
+    }
+
+   
+
+    .users {
+        gap: 60px;
+        border: none;
+    }
+
+    .Nick {
+
+        font-size: medium;
+    }
+
+    .post_header {
+        margin-top: 40px;
+    }
+
+    .toch {
+        margin-left: 74%;
+        margin-top: 30px;
+    }
+
+    .nam {
+        font-size: 22px;
+    }
+
+    .city {
+        font-size: 12px;
+    }
+
+    .photo {
+        width: 690px;
+        height: 400px;
+        padding-top: 10px;
+    }
+
+    .calculate {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-left: 11px;
+    }
+
+    .num {
+        font-size: small;
+    }
+
+    .slider {
+        margin-left: 200px;
+        padding-left: 0%;
+        padding-top: 10px;
+    }
+
+    
+    .circle {
+        width: 5px;
+        height: 5px;
+    }
+
+    .react {
+        width: 30px;
+        height: 30px;
+    }
+
+    .react_end {
+        width: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .information {
+        margin-top: 7px;
+    }
+
+    .likes {
+        font-size: 12px;
+    }
+
+    .texts {
+        gap: 4px;
+    }
+
+    .nams {
+        font-size: 14px;
+    }
+
+    .inf {
+        font-size: 12px;
+    }
+
+    .more {
+        font-size: 12px;
+    }
+
+    .comm {
+        font-size: 14px;
+    }
+
+    .tim {
+        gap: 5px;
+    }
+
+    .tams {
+        font-size: 12px;
+    }
+
+    .trans {
+        font-size: 11px;
+    }
+
+    .menu {
+        margin-left: 5px;
+        gap: 15%;
+    }
+
+    .men_house {
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .men_search,
+    .men_plus,
+    .men_like {
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .normal_circle {
+        width: 50px;
+        height: 40px;
+    }
+
+    .comment {
+        display: none;
+    }
+
+    .coms {
+        display: none;
+    }
+}
+
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    }
+    
+    .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 70%;
+
+    img {
+        width: 70%;
+        height: 650px;
+    }
+    }
+
+   
+    .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
